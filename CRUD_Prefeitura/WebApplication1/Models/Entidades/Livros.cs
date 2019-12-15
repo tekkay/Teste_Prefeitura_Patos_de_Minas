@@ -16,8 +16,8 @@ namespace WebApplication1.Models.Entidades
         [Display(Description = "Nome")]  
         public string Nome { get; set; }
 
-        [Display(Description = "Preço")]
-        public float Preço { get; set; }
+        [Display(Description = "Preco")]
+        public decimal Preco { get; set; }
 
         [Display(Description = "Tipo")]
         public int Tipo { get; set; }

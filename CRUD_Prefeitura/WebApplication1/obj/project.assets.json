@@ -13539,11 +13539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Coêlho\\Desktop\\CRUD-com-ASP.NET-core-Visual-Studio-2017\\Aula\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\Coêlho\\Desktop\\Teste_Prefeitura_Patos_de_Minas\\CRUD_Prefeitura\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Coêlho\\Desktop\\CRUD-com-ASP.NET-core-Visual-Studio-2017\\Aula\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\Coêlho\\Desktop\\Teste_Prefeitura_Patos_de_Minas\\CRUD_Prefeitura\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Coêlho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Coêlho\\Desktop\\CRUD-com-ASP.NET-core-Visual-Studio-2017\\Aula\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Coêlho\\Desktop\\Teste_Prefeitura_Patos_de_Minas\\CRUD_Prefeitura\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
