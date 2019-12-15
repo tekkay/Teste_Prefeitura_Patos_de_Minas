@@ -1,0 +1,71 @@
+﻿@model WebApplication1.Models.Entidades.Livros
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Livro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Preço)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Preço)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.Autor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Autor)
+        </dd>
+        <dd>
+            @*@Html.DisplayFor(model => model.Tipo)*@
+
+            @if (Model.Tipo == 1)
+            {
+                <label>Terro</label>
+            }
+            else
+              if (Model.Tipo == 2)
+            {
+                <label>Romance</label>
+            }
+            else
+              if (Model.Tipo == 3)
+            {
+                <label>Comédia</label>
+            }
+            else
+              if (Model.Tipo == 4)
+            {
+                <label>Policial</label>
+            }
+
+        </dd>
+    </dl>
+
+        <form asp-action="Delete">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </form>
+    </div>

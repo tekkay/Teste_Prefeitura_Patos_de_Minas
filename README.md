@@ -1,1 +1,2 @@
-# Teste_Prefeitura_Patos_de_Minas
+# CRUD-com-ASP.NET-core-Visual-Studio-2017
+CRUD com ASP.NET core Visual Studio 2017
